@@ -1,0 +1,236 @@
+@import url('<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Fredoka+One&display=swap" rel="stylesheet">');
+body {
+    background-color: #eeeeee;
+}
+
+.bg-white {
+    background-color: #eeeeee !important;
+}
+
+.stytext {
+    font-family: Poppins;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #ffffff;
+}
+
+.huno {
+    font-size: 4rem;
+    color: #ffffff;
+}
+
+.hero {
+    height: 100vh;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+}
+
+.nosotros {
+    height: 100vh;
+}
+
+@media (max-width: 767.98px) {
+    .nosotros {
+        height: auto;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .nosotros {
+        height: auto;
+    }
+}
+
+.navbar-toggler-icon {
+    color: #17d1ac !important;
+}
+
+.fondohero {
+    background: #8e9eab;
+    background: -webkit-linear-gradient(to right, #8e9eabbb, #eef2f398), url(../img/back3.png);
+    background: linear-gradient(to right, #8e9eabbb, #eef2f398), url(../img/back3.png);
+    ;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/* @media (max-width: 767.98px) {
+    .hero {
+        height: 80vh;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .hero {
+        height: 100vh;
+    }
+} */
+
+.btn-outline-dark {
+    color: #393e46 !important;
+}
+
+.btn-outline-dark:hover {
+    color: #ffffff !important;
+    background-color: #393e46 !important;
+}
+
+.navbar-toggler {
+    background-color: #393e46 !important;
+    color: #ffffff !important;
+}
+
+.btn-dark {
+    background-color: #ffd369 !important;
+    border-color: #ffd369 !important;
+    color: #393e46 !important;
+}
+
+.btn-dark:hover {
+    background-color: #ffd269d3 !important;
+    border-color: #ffd269c7 !important;
+}
+
+.text-dark {
+    color: #222831 !important;
+}
+
+.secolor {
+    color: #ffd369;
+}
+
+.fondoblack {
+    background-color: #222831;
+}
+
+.fondoblack h1 {
+    font-size: 5rem;
+}
+
+.btn-primary {
+    background-color: #17d1ac;
+    border-color: #17d1ac !important;
+    border: 0px;
+}
+
+.btn-primary:hover {
+    background-color: #17d1acd5;
+    border-color: #17d1acda !important;
+    border: 0px;
+}
+
+.img-1 {
+    background-image: url(../img/image4.png);
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+}
+
+.sombra {
+    float: left;
+    background-color: #A7A7A7;
+    margin: 10px 0 0 5px;
+}
+
+@media (max-width: 575.98px) {
+    .img-1 {
+        background-image: url(../img/bac.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 60vh;
+    }
+}
+
+.img-2 {
+    background-image: url(../img/photo-1586125674857-4eb86880905d.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+@media (max-width: 575.98px) {
+    .img-2 {
+        background-image: url(../img/photo-1586125674857-4eb86880905d.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+    }
+}
+
+.bg-dark {
+    background-color: #161616 !important;
+}
+
+.paquetes h1 {
+    font-size: 5rem;
+}
+
+@media (max-width: 575.98px) {
+    .paquetes h1 {
+        font-size: 3rem;
+    }
+}
+
+.precio1:hover {
+    color: #27b195de;
+}
+
+.btn-outline-light {
+    border: 0px !important;
+    color: #fff !important;
+}
+
+.btn-outline-light:hover {
+    border: 0px;
+    color: grey !important;
+    background-color: rgba(128, 128, 128, 0) !important;
+}
+
+.bg-paquetes {
+    background-color: #f05454;
+}
+
+.texcolor2 {
+    color: #eeeeee;
+}
+
+.cardback {
+    background-color: #ffd369;
+}
+
+.cardback:hover {
+    background-color: #ffd269c0;
+    transition: .5s;
+}
+
+.cardback1 {
+    background-color: #393e46;
+    color: #eeeeee !important;
+}
+
+.cardback1:hover {
+    background-color: #393e46da;
+    transition: .5s;
+}
+
+.cardback2 {
+    background-color: #93abd3;
+    color: #eeeeee !important;
+}
+
+.cardback2:hover {
+    background-color: #93aad3cc;
+    transition: .5s;
+}
